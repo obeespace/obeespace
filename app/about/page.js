@@ -13,16 +13,16 @@ const page = () => {
         Crafting scalable, user-focused digital products
         </p>
         <p className="text-center text-gray-500">
-          Utilizing the powers of the <span className="underline text-gray-800 font-semibold">javascript</span> ecosystem and python's
+          Utilizing the powers of the <span className="underline text-gray-800 font-semibold">javascript</span> ecosystem and python
           lightweight yet very friendly pluggins for <span className="underline text-gray-800 font-semibold">AI integrations</span>, we craft
           state of the art <span className="underline text-gray-800 font-semibold">full-stack</span> software solutions that prioritize performance, speed
           and euhoric customer experiences.
         </p>
         <div className="flex justify-center mt-4">
           <a
-            href="https://wa.link/r1m90e" // Use an anchor tag for proper navigation
-            target="_blank" // Open the link in a new tab
-            rel="noopener noreferrer" // Add security attributes
+            href="https://wa.link/r1m90e" 
+            target="_blank" 
+            rel="noopener noreferrer" 
             className="bg-black w-fit rounded-xl px-4 py-2 flex items-center gap-1 text-white hover:bg-gray-700 cursor-pointer"
           >
             Contact Me <IoMdArrowDropright />

@@ -9,9 +9,9 @@ export default function Home() {
       </div>
 
       <div className="w-5/6 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        <ProjectCard picture="/project.jpg" />
+        <ProjectCard picture="/project2.jpg" />
+        <ProjectCard picture="/project3.jpg" />
       </div>
     </main>
   );
