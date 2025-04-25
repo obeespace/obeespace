@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import { IoMdClose } from "react-icons/io";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { usePathname } from "next/navigation";
-import { IoMdArrowDropright } from "react-icons/io";
-import { MdOutlineShoppingCart } from "react-icons/md";
+import { IoMdArrowDropdown } from "react-icons/io";
+import { GoDotFill } from "react-icons/go";
 import { useRouter } from "next/navigation";
 
 const Nav = () => {
@@ -20,7 +20,9 @@ const Nav = () => {
       <div className="hidden lg:flex justify-between items-center">
         <div>
           <Link href="/">
-            <h1 className="font-semibold text-2xl">obeespace</h1>
+            <h1 className="font-semibold flex items-center text-2xl">
+              obeespace <GoDotFill className="mt-1 text-gray-500" />
+            </h1>
           </Link>
         </div>
         <div className="flex gap-10 items-center">
@@ -48,23 +50,43 @@ const Nav = () => {
           </Link>
         </div>
 
-        <button className="bg-gray-300 rounded-xl px-4 py-2 text-black hover:bg-gray-500 cursor-pointer">
-          Download CV
-        </button>
+        <motion.button
+          whileTap={{ scale: 0.7 }}
+          className="border border-black rounded-xl px-4 py-2 flex items-center gap-1 text-black hover:bg-gray-200 cursor-pointer"
+        >
+          <a
+            href="https://drive.google.com/file/d/1zIV2PUTplqgrjypQaGub5I4JgKnY89Xx/view?usp=sharing" // Replace with the actual path to your CV file
+            target="_blank"
+            className="flex items-center gap-1"
+          >
+            Download CV <IoMdArrowDropdown />
+          </a>
+        </motion.button>
       </div>
 
       {/* Mobile Header */}
       <div className="flex lg:hidden items-center justify-between">
         <div>
           <Link href="/">
-            <h1 className="font-semibold text-2xl">obeespace</h1>
+            <h1 className="font-semibold flex items-center text-2xl">
+              obeespace <GoDotFill className="mt-1 text-gray-500" />
+            </h1>
           </Link>
         </div>
 
         <div className="flex gap-3">
-          <Link href="cart">
-            <MdOutlineShoppingCart className="text-2xl" />
-          </Link>
+          <motion.button
+            whileTap={{ scale: 0.7 }}
+            className="flex items-center gap-1 text-black cursor-pointer"
+          >
+            <a
+              href="https://drive.google.com/file/d/1zIV2PUTplqgrjypQaGub5I4JgKnY89Xx/view?usp=sharing" // Replace with the actual path to your CV file
+              target="_blank"
+              className="flex items-center gap-1"
+            >
+              CV <IoMdArrowDropdown />
+            </a>
+          </motion.button>
           <div className="flex items-center gap-4">
             <div className="relative">
               {toggleMenu ? (
@@ -96,7 +118,7 @@ const Nav = () => {
                   className=" hover:border-green-700 px-3 py-2"
                   onClick={() => setToggleMenu((prev) => !prev)}
                 >
-                  Shop
+                  About
                 </p>
               </Link>
 
@@ -108,7 +130,7 @@ const Nav = () => {
                   className=" hover:border-green-700 px-3 py-2"
                   onClick={() => setToggleMenu((prev) => !prev)}
                 >
-                  events
+                  Contact
                 </p>
               </Link>
             </div>
