@@ -79,13 +79,13 @@ const Nav = () => {
             whileTap={{ scale: 0.7 }}
             className="flex items-center gap-1 text-black cursor-pointer"
           >
-            <a
+            <Link
               href="https://drive.google.com/file/d/1zIV2PUTplqgrjypQaGub5I4JgKnY89Xx/view?usp=sharing" // Replace with the actual path to your CV file
               target="_blank"
               className="flex items-center gap-1"
             >
               CV <IoMdArrowDropdown />
-            </a>
+            </Link>
           </motion.button>
           <div className="flex items-center gap-4">
             <div className="relative">

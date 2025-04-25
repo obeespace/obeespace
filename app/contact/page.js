@@ -40,7 +40,7 @@ const page = () => {
         <div className="flex justify-center mb-3">
           <Image src={contactimg} alt="man on phone" className="h-32 w-32 rounded-full" />
         </div>
-        <h2 className="text-4xl font-bold">
+        <h2 className="lg:text-4xl text-3xl lg:font-bold font-black">
           Lets Collaborate on your Next project
         </h2>
         <h4 className="mt-3 text-lg">

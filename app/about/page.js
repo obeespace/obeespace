@@ -9,7 +9,7 @@ const page = () => {
     <main className="w-5/6 mx-auto py-10">
       <div className="flex flex-col gap-4 justify-center lg:w-4/6 mx-auto">
         <div className="flex justify-center"><Image src={homeImg} alt="" className="rounded-full h-32 w-32" /></div>
-        <p className="lg:text-5xl text-3xl font-black text-center text-transparent bg-clip-text bg-gradient-to-r from-black to-gray-500">
+        <p className="lg:text-5xl text-3xl font-black text-center ">
         Crafting scalable, user-focused digital products
         </p>
         <p className="text-center text-gray-500">
