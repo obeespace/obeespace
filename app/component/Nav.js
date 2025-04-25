@@ -54,13 +54,13 @@ const Nav = () => {
           whileTap={{ scale: 0.7 }}
           className="border border-black rounded-xl px-4 py-2 flex items-center gap-1 text-black hover:bg-gray-200 cursor-pointer"
         >
-          <a
+          <Link
             href="https://drive.google.com/file/d/1zIV2PUTplqgrjypQaGub5I4JgKnY89Xx/view?usp=sharing" // Replace with the actual path to your CV file
             target="_blank"
             className="flex items-center gap-1"
           >
             Download CV <IoMdArrowDropdown />
-          </a>
+          </Link>
         </motion.button>
       </div>
 

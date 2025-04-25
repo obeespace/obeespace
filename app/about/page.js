@@ -3,6 +3,7 @@ import React from "react";
 import homeImg from "../../public/homeimg.jpg";
 import { IoMdArrowDropright } from "react-icons/io";
 import FloatingSocials from "../component/FloatingSocials";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -19,14 +20,14 @@ const page = () => {
           and euhoric customer experiences.
         </p>
         <div className="flex justify-center mt-4">
-          <a
+          <Link
             href="https://wa.link/r1m90e" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-black w-fit rounded-xl px-4 py-2 flex items-center gap-1 text-white hover:bg-gray-700 cursor-pointer"
           >
             Contact Me <IoMdArrowDropright />
-          </a>
+          </Link>
         </div>
       </div>
       <FloatingSocials/>
