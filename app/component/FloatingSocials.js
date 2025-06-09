@@ -31,7 +31,7 @@ const FloatingSocials = () => {
 
   return (
     <div
-      className="fixed lg:bottom-10 bottom-5 lg:right-10 right-5 flex flex-col items-center"
+      className="fixed lg:bottom-10 bottom-5 lg:right-10 right-5 flex flex-col items-center cursor-pointer"
       onMouseEnter={() => !isMobile && setShowSocials(true)}
       onMouseLeave={() => !isMobile && setShowSocials(false)}
     >
