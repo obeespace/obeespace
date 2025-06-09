@@ -10,9 +10,9 @@ export default function Home() {
       </div>
 
       <div className="w-5/6 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 mt-20">
-        <ProjectCard picture="/project1.png" picturelink="https://wizzygym.vercel.app/" githubLink="https://github.com/obeespace/wizzygym" />
-        <ProjectCard picture="/project2.png" picturelink="https://franald-concept.vercel.app/" githubLink="https://github.com/obeespace/franald_concept" />
-        <ProjectCard picture="/project3.png" picturelink="https://obeespace.vercel.app/" githubLink="https://github.com/obeespace/obeespace" />
+        <ProjectCard picture="/project1.png" picturelink="https://wizzygym.vercel.app/" githubLink="https://github.com/obeespace/wizzygym" projectTitle="Global Body Goals"/>
+        <ProjectCard picture="/project2.png" picturelink="https://franald-concept.vercel.app/" githubLink="https://github.com/obeespace/franald_concept" projectTitle="Franald Farm" />
+        <ProjectCard picture="/project3.png" picturelink="https://obeespace.vercel.app/" githubLink="https://github.com/obeespace/obeespace" projectTitle="Obeespace" />
       </div>
       <FloatingSocials />
 
