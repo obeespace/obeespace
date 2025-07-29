@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import React from "react";
 import homeImg from "../../public/homeimg.jpg";
 import { IoMdArrowDropright } from "react-icons/io";
@@ -7,7 +9,9 @@ import Link from "next/link";
 
 const page = () => {
   return (
-    <main className="w-5/6 mx-auto py-10">
+    <motion.main initial={{ opacity: 0, y: 60 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }} className="w-5/6 mx-auto py-10">
       <div className="flex flex-col gap-4 justify-center lg:w-4/6 mx-auto">
         <div className="flex justify-center"><Image src={homeImg} alt="" className="rounded-full h-32 w-32" /></div>
         <p className="lg:text-5xl text-3xl font-black text-center ">
@@ -19,7 +23,7 @@ const page = () => {
           state of the art <span className="underline text-gray-800 font-semibold">full-stack</span> software solutions that prioritize performance, speed
           and euhoric customer experiences.
         </p>
-        <div className="flex justify-center mt-4">
+        <motion.div whileTap={{ scale: 0.7 }} className="flex justify-center mt-4">
           <Link
             href="https://wa.link/r1m90e" 
             target="_blank" 
@@ -28,10 +32,10 @@ const page = () => {
           >
             Contact Me <IoMdArrowDropright />
           </Link>
-        </div>
+        </motion.div>
       </div>
       <FloatingSocials/>
-    </main>
+    </motion.main>
   );
 };
 

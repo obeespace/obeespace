@@ -34,7 +34,9 @@ const page = () => {
   };
 
   return (
-    <div className="w-9/12 lg:flex justify-between items-center mx-auto text-center my-10">
+    <motion.div initial={{ opacity: 0, x: -100 }} 
+      animate={{ opacity: 1, x: 0 }}    
+      transition={{ duration: 1 }} className="w-9/12 lg:flex justify-between items-center mx-auto text-center my-10">
         <Toaster position="top-right" richColors />
       <div className="lg:w-5/12">
         <div className="flex justify-center mb-3">
@@ -83,7 +85,7 @@ const page = () => {
         </form>
       </div>
       <FloatingSocials />
-    </div>
+    </motion.div>
   );
 };
 
