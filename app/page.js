@@ -6,20 +6,20 @@ import ProjectCard from "./component/ProjectCard";
 export default function Home() {
   const projectsDetails = [
     {
-      projectTitle: "Project 1",
-      picture: "/project1bu.jpg",
+      projectTitle: "Wizzy Gym",
+      picture: "/project1.png",
       liveLink: "https://wizzygym.vercel.app/",
       githubLink: "https://github.com/obeespace/wizzygym"
     },
     {
-      projectTitle: "Project 2",
-      picture: "/project2bu.jpg",
+      projectTitle: "Franald Concept",
+      picture: "/project2.png",
       liveLink: "https://franald-concept.vercel.app/",
       githubLink: "https://github.com/obeespace/franald_concept"
     },
     {
-      projectTitle: "Project 3",
-      picture: "/project3bu.jpg",
+      projectTitle: "Obeespace",
+      picture: "/project3.png",
       liveLink: "https://obeespace.vercel.app/",
       githubLink: "https://github.com/obeespace/obeespace"
     }
