@@ -14,7 +14,7 @@ const page = () => {
 
     emailjs
       .sendForm(
-        "service_7rfdysx", 
+        "service_ahuvxjt", 
         "template_a2kcvvb", 
         e.target,
         "E_sBA160DotyE3DqV"
