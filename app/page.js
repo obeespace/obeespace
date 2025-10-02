@@ -14,7 +14,7 @@ export default function Home() {
     },
     {
       projectTitle: "Wizzy Gym",
-      picture: "/project1.png",
+      picture: "/project1.PNG",
       liveLink: "https://wizzygym.vercel.app/",
       githubLink: "https://github.com/obeespace/wizzygym"
     },
