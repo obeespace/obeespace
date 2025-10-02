@@ -2,9 +2,16 @@
 import { motion } from "framer-motion";
 import FloatingSocials from "./component/FloatingSocials";
 import ProjectCard from "./component/ProjectCard";
+import Image from "next/image";
+import project from "../public/project1bu.jpg"
 
 export default function Home() {
   const projectsDetails = [
+    {
+      projectTitle: "Desko Smart Lock",
+      picture: "/project4.png",
+      liveLink: "https://www.deskosecure.com/",
+    },
     {
       projectTitle: "Wizzy Gym",
       picture: "/project1.png",
@@ -45,5 +52,6 @@ export default function Home() {
       <FloatingSocials />
 
     </motion.main>
+    
   );
 }
