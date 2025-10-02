@@ -9,12 +9,12 @@ export default function Home() {
   const projectsDetails = [
     {
       projectTitle: "Desko Smart Lock",
-      picture: "/project4.png",
+      picture: "/project4.PNG",
       liveLink: "https://www.deskosecure.com/",
     },
     {
       projectTitle: "Wizzy Gym",
-      picture: "/project1.PNG",
+      picture: "/project1.png",
       liveLink: "https://wizzygym.vercel.app/",
       githubLink: "https://github.com/obeespace/wizzygym"
     },
