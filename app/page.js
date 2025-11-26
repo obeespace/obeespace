@@ -34,6 +34,11 @@ export default function Home() {
       githubLink: "https://github.com/obeespace/wizzygym"
     },
     {
+      projectTitle: "Everything Chic",
+      picture: "/project8alt.jpg",
+      liveLink: "https://everything-chic.vercel.app",
+    },
+    {
       projectTitle: "Franald Concept",
       picture: "/project2.png",
       liveLink: "https://franald-concept.vercel.app/",
