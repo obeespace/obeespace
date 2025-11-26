@@ -8,6 +8,21 @@ import project from "../public/project1bu.jpg"
 export default function Home() {
   const projectsDetails = [
     {
+      projectTitle: "Eineos",
+      picture: "/project5.jpg",
+      liveLink: "https://www.iponigeria.com/",
+    },
+    {
+      projectTitle: "Skyline Innovations",
+      picture: "/project6.jpg",
+      liveLink: "https://skyline-pied-ten.vercel.app/",
+    },
+    {
+      projectTitle: "Nzeoma Solar Solutions",
+      picture: "/project7.jpg",
+      liveLink: "https://nzeoma.vercel.app/",
+    },
+    {
       projectTitle: "Desko Smart Lock",
       picture: "/project4.PNG",
       liveLink: "https://www.deskosecure.com/",
