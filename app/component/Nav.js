@@ -80,7 +80,7 @@ const Nav = () => {
             className="flex items-center gap-1 text-black cursor-pointer"
           >
             <Link
-              href="https://drive.google.com/file/d/1zIV2PUTplqgrjypQaGub5I4JgKnY89Xx/view?usp=sharing" // Replace with the actual path to your CV file
+              href="https://drive.google.com/file/d/1OtdPgo2EeAPyB_MO6P2CqdFm_rp6mz1g/view?usp=sharing" // Replace with the actual path to your CV file
               target="_blank"
               className="flex items-center gap-1"
             >
