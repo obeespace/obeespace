@@ -14,7 +14,7 @@ export default function Home() {
       liveLink: "https://www.psalm23careservices.com/",
     },
     {
-      projectTitle: "Fowrad falls",
+      projectTitle: "Forward Falls",
       picture: "/project9.jpg",
       liveLink: "https://www.forwardfalls.com",
     },
