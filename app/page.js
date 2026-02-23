@@ -7,10 +7,16 @@ import project from "../public/project1bu.jpg"
 
 export default function Home() {
   const projectsDetails = [
+    
     {
-      projectTitle: "Eineos",
-      picture: "/project5.jpg",
-      liveLink: "https://www.iponigeria.com/",
+      projectTitle: "Psalm23Care",
+      picture: "/project10.jpg",
+      liveLink: "https://www.psalm23careservices.com/",
+    },
+    {
+      projectTitle: "Fowrad falls",
+      picture: "/project9.jpg",
+      liveLink: "https://www.forwardfalls.com",
     },
     {
       projectTitle: "Skyline Innovations",
