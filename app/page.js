@@ -19,6 +19,11 @@ export default function Home() {
       liveLink: "https://www.forwardfalls.com",
     },
     {
+      projectTitle: "eineos",
+      picture: "/project5.jpg",
+      liveLink: "https://www.iponigeria.com/",
+    },
+    {
       projectTitle: "Skyline Innovations",
       picture: "/project6.jpg",
       liveLink: "https://skyline-pied-ten.vercel.app/",
