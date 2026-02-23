@@ -20,9 +20,9 @@ export const metadata = {
   title: "Obeespace",
   description: "A modern software developer portfolio",
   icons: {
-    icon: "/logo2.jpg",
-    shortcut: "/logo2.jpg",
-    apple: "/logo2.jpg",
+    icon: "/logo2.jpg?v=2",
+    shortcut: "/logo2.jpg?v=2",
+    apple: "/logo2.jpg?v=2",
   },
 };
 
