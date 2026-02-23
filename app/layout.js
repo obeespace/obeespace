@@ -19,6 +19,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Obeespace",
   description: "A modern software developer portfolio",
+  icons: {
+    icon: "/logo2.jpg",
+    shortcut: "/logo2.jpg",
+    apple: "/logo2.jpg",
+  },
 };
 
 export default function RootLayout({ children }) {
