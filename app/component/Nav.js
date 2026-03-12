@@ -7,12 +7,10 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { usePathname } from "next/navigation";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { GoDotFill } from "react-icons/go";
-import { useRouter } from "next/navigation";
 
 const Nav = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const pathname = usePathname();
-  const router = useRouter();
 
   return (
     <div className="w-5/6 mx-auto py-5">
@@ -77,6 +75,7 @@ const Nav = () => {
         <div className="flex gap-3">
           <motion.button
             whileTap={{ scale: 0.7 }}
+            aria-label="Download CV"
             className="flex items-center gap-1 text-black cursor-pointer"
           >
             <Link
@@ -93,6 +92,7 @@ const Nav = () => {
                 <motion.p whileTap={{ scale: 0.7 }}>
                   <IoMdClose
                     className="text-2xl cursor-pointer"
+                    aria-label="Close menu"
                     onClick={() => setToggleMenu((prev) => !prev)}
                   />
                 </motion.p>
@@ -100,6 +100,7 @@ const Nav = () => {
                 <motion.p whileTap={{ scale: 0.7 }}>
                   <HiMenuAlt4
                     className="text-2xl cursor-pointer"
+                    aria-label="Open menu"
                     onClick={() => setToggleMenu((prev) => !prev)}
                   />
                 </motion.p>

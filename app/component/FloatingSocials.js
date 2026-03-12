@@ -8,18 +8,14 @@ const FloatingSocials = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    const setFromMediaQuery = () => setIsMobile(mediaQuery.matches);
 
-    // Set initial state
-    handleResize();
-
-    // Add event listener for window resize
-    window.addEventListener("resize", handleResize);
+    setFromMediaQuery();
+    mediaQuery.addEventListener("change", setFromMediaQuery);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      mediaQuery.removeEventListener("change", setFromMediaQuery);
     };
   }, []);
 
