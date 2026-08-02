@@ -13,6 +13,11 @@ export const metadata = {
 
 const projectsDetails = [
   {
+    projectTitle: "Axiom & Vale Global",
+    picture: "/project11.jpeg",
+    liveLink: "https://axiomvaleglobal.com/",
+  },
+  {
     projectTitle: "Psalm23Care",
     picture: "/project10.jpg",
     liveLink: "https://www.psalm23careservices.com/",
