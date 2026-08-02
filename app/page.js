@@ -18,6 +18,11 @@ const projectsDetails = [
     liveLink: "https://axiomvaleglobal.com/",
   },
   {
+    projectTitle: "Global BodyGoals",
+    picture: "/project12.jpeg",
+    liveLink: "https://www.globalbodygoalsltd.org/",
+  },
+  {
     projectTitle: "Psalm23Care",
     picture: "/project10.jpg",
     liveLink: "https://www.psalm23careservices.com/",
