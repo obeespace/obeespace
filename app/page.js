@@ -13,6 +13,11 @@ export const metadata = {
 
 const projectsDetails = [
   {
+    projectTitle: "Meal Pass",
+    picture: "/project13b.jpeg",
+    liveLink: "https://foodsub-phi.vercel.app/login",
+  },
+  {
     projectTitle: "Axiom & Vale Global",
     picture: "/project11.jpeg",
     liveLink: "https://axiomvaleglobal.com/",
