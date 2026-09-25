@@ -53,7 +53,7 @@ const Nav = () => {
           className="border border-black rounded-xl px-4 py-2 flex items-center gap-1 text-black hover:bg-gray-200 cursor-pointer"
         >
           <Link
-            href="https://drive.google.com/file/d/1OtdPgo2EeAPyB_MO6P2CqdFm_rp6mz1g/view?usp=sharing" // Replace with the actual path to your CV file
+            href="https://drive.google.com/file/d/1w7IE0iV70fZGmid1ittQPgTxYY23KzAj/view?usp=sharing" // Replace with the actual path to your CV file
             target="_blank"
             className="flex items-center gap-1"
           >
@@ -79,7 +79,7 @@ const Nav = () => {
             className="flex items-center gap-1 text-black cursor-pointer"
           >
             <Link
-              href="https://drive.google.com/file/d/1OtdPgo2EeAPyB_MO6P2CqdFm_rp6mz1g/view?usp=sharing" // Replace with the actual path to your CV file
+              href="https://drive.google.com/file/d/1w7IE0iV70fZGmid1ittQPgTxYY23KzAj/view?usp=sharing" // Replace with the actual path to your CV file
               target="_blank"
               className="flex items-center gap-1"
             >
